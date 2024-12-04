@@ -1,0 +1,229 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>蜡生苗花</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<style type="text/css">
+body,td,th {
+	font-size: 20px;
+	color: #FFF;
+}
+body {
+	background-image: url();
+	background-color: #1F3A7C;
+}
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+
+<body onload="MM_preloadImages('images/button9.png')">
+<header>
+      <a href="index.html" class="img"><img src="images/brand.png" width="60" height="60"></a>
+  <a href="index.html" class="brand">蜡生苗花</a>
+      <div class="menu-btn"></div>
+      <div class="navigation">
+        <div class="navigation-items">
+          <a href="index.html">首页</a>
+          <a href="webpage-2.html">工艺流程</a>
+          <a href="webpage-3.html">文化内涵</a>
+          <a href="webpage-4.html">榕江蜡染</a>
+          <a href="webpage-5.html">未来发展</a>
+        </div>
+      </div>
+</header>
+
+    <section class="home">
+      <video class="video-slide active" src="other/videos/mp4-4.mp4" autoplay muted loop></video>
+      <video class="video-slide" src="other/videos/mp4-5.mp4" autoplay muted loop></video>
+      <video class="video-slide" src="other/videos/mp4-3.mp4" autoplay muted loop></video>
+      <video class="video-slide" src="other/videos/mp4-1.mp4" autoplay muted loop></video>
+      <video class="video-slide" src="other/videos/mp4-2.mp4" autoplay muted loop></video>
+      <div class="slider-navigation">
+        <div class="nav-btn active"></div>
+        <div class="nav-btn"></div>
+        <div class="nav-btn"></div>
+        <div class="nav-btn"></div>
+        <div class="nav-btn">
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+        </div>
+      </div>
+    </section>
+
+<script type="text/javascript">
+    //Javacript for responsive navigation menu
+    const menuBtn = document.querySelector(".menu-btn");
+    const navigation = document.querySelector(".navigation");
+
+    menuBtn.addEventListener("click", () => {
+      menuBtn.classList.toggle("active");
+      navigation.classList.toggle("active");
+    });
+
+    //Javacript for video slider navigation
+    const btns = document.querySelectorAll(".nav-btn");
+    const slides = document.querySelectorAll(".video-slide");
+    const contents = document.querySelectorAll(".content");
+
+    var sliderNav = function(manual){
+      btns.forEach((btn) => {
+        btn.classList.remove("active");
+      });
+
+      slides.forEach((slide) => {
+        slide.classList.remove("active");
+      });
+
+      contents.forEach((content) => {
+        content.classList.remove("active");
+      });
+
+      btns[manual].classList.add("active");
+      slides[manual].classList.add("active");
+      contents[manual].classList.add("active");
+    }
+
+    btns.forEach((btn, i) => {
+      btn.addEventListener("click", () => {
+        sliderNav(i);
+      });
+    });
+    </script>
+
+<table width="100%" height="900" border="0" align="center" cellpadding="0" cellspacing="0" background="images/background1.png.jpg" style="background-repeat:no-repeat">
+  <tr>
+    <td width="914" height="540"></td>
+    <td height="540" colspan="3"><p></p>
+  <p><img src="images/button1.png" width="416" height="100" /></p>
+      <p>&nbsp;</p>
+        <p style="text-indent:41px"><span style="line-height:30px;letter-spacing:2px">蜡染，我国民间传统纺织印染手工艺，是我国古代四大印花技艺之一。蜡染是用蜡刀蘸熔蜡绘花于布后以蓝靛浸染，既染去蜡，布面就呈现出蓝底白花或白底蓝花的多种图案，同时，在浸染中，作为防染剂的蜡自然龟裂，使布面呈现特殊的&ldquo;冰纹&rdquo;，尤具魅力。由于蜡染图案丰富，色调素雅，风格独特，用于制作服装服饰和各种生活实用品，显得朴实大方、清新悦目。</span></p>
+        <p><a href="https://baike.baidu.com/item/%E8%9C%A1%E6%9F%93/306637" target="_blank" onmouseover="MM_swapImage('Image12','','images/button9.png',1)" onmouseout="MM_swapImgRestore()"><img src="images/button8.png" name="Image12" width="101" height="33" border="0" id="Image12" /></a></p>
+        
+    </td>
+  </tr>
+  <tr>
+    <td height="540" colspan="3"><blockquote>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td colspan="2" align="right"><img src="images/button4.png" width="416" height="100" /></td>
+        </tr>
+        <tr>
+          <td width="13%">&nbsp;</td>
+          <td width="87%" ><p>&nbsp;</p>
+            <p style="text-indent:41px"><span style="line-height:30px;letter-spacing:2px">在苗族传说中，蜡染的出现跟一位叫瓦爽的女神有关。相传天地初开之时，女神瓦爽想制作一把撑天大伞，她请来蜂蜜之神在衣物上起舞，用蜂蜡制作图案；而后，她又请来槐蓝属植物之神将布料染成靛蓝色；最后，她把布料伸展到框架上,天伞就完成了。后来，女神将蜡染技艺传授给两位苗族女孩阿卜和阿仰，这项古老的技艺经两位女孩之手传授给了更多的苗家女子。</span></p>
+          <p><a href="https://www.smxs.com/minsu/minzu/752.html" target="_blank" onmouseover="MM_swapImage('Image11','','images/button9.png',1)" onmouseout="MM_swapImgRestore()"><img src="images/button8.png" name="Image11" width="101" height="33" border="0" id="Image11" /></a></p></td>
+        </tr>
+      </table>
+      <p align="right">&nbsp;</p>
+  <blockquote>
+        <blockquote>
+          <blockquote>&nbsp;</blockquote>
+          </blockquote>
+        </blockquote>
+        <p align="right">&nbsp;</p>
+     
+    </td>
+    <td td width="968"></td>
+  </tr>
+</table>
+
+
+<style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        ul{
+            width: 1400px;
+            height: 525px;
+            border: 1px solid;
+            margin: 50px auto;
+            overflow: hidden;
+        }
+        ul li{
+            width: 175px;
+            height: 525px;
+            float: left;
+            transition: width 0.5s;
+        }
+
+        ul li img{
+            width: 700px;
+            height: 525px;
+        }
+        ul:hover li{
+            width: 175px;
+        }
+        ul li:hover{
+            width: 650px;
+        }</style>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div align="center">
+<img src="images/biaoti.png" width="421" height="119" align="middle">
+</div>
+<ul>
+  <li><a href="webpage-4.html"><img src="images/huanbao2.jpg" alt=""></a></li>
+        <li><a href="https://www.thepaper.cn/newsDetail_forward_15299715" target="_blank"><img src="images/muqin2.jpg" alt="" border="0"></a></li>
+        <li><a href="webpage-5.html"><img src="images/sheji2.jpg" alt=""></a></li>
+        <li><a href="https://whhly.guizhou.gov.cn/xwzx/szdt/202009/t20200914_63125003.html" target="_blank"><img src="images/wenlv2.jpg" alt=""></a></li>
+        <li><a href="https://baike.baidu.com/item/%E8%9C%A1%E6%9F%93/306637" target="_blank"><img src="images/chanye2.jpg" alt=""></a></li>
+        
+</ul>
+    
+    
+   
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+    <div align="center">
+     <table width="550" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr style="color:#FFF;font-family:"等线", sans-serif;">
+        <td width="130" align="center">网站地图
+        </td>
+        <td>|</td>
+        <td width="130" align="center">关于我们</td>
+        <td>|</td>
+        <td width="130" align="center">联系我们</td>
+        <td>|</td>
+        <td width="130" align="center">版权声明</td>
+      </tr>
+    </table>
+    </div>
+<p>&nbsp;</p>
+    
+    <p align="center" style="font-size:16px;font-family:sans-serif">Copyright 2022 South China University of Technology. All Rights Reserved</p>
+    <p align="center"><span style="font-size:16px; color:#c1272d;font-family:"等线", sans-serif">建议使用360极速、Chrome、Firefox浏览器，最佳分辨率1920×1080</span></p>
+    <p>&nbsp;</p>
+    
+    
+   
+   
+</body>
+</html>

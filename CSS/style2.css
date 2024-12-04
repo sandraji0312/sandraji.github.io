@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header{
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 90px;
+  transition: 0.5s ease;
+  background-color: rgba(25,25,112,0.7);
+  letter-spacing: 2px;
+}
+
+header .img{
+  position: relative;
+}
+
+header .brand{
+  color: #BF0000;
+  font-size: 35px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: relative;
+  left: -220px;
+  top: -4px;
+  font-family:"江西拙楷" ;
+}
+
+header .navigation{
+  position: relative;
+}
+
+header .navigation .navigation-items a{
+  position: relative;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 30px;
+  transition: 0.3s ease;
+  font-family:"江西拙楷" ;
+}
+
+header .navigation .navigation-items a:before{
+  content: '';
+  position: absolute;
+  background: #fff;
+  width: 0;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s ease;
+  font-family:"江西拙楷" ;
+}
+
+header .navigation .navigation-items a:hover:before{
+  width: 100%;
+}
+
+section{
+  padding: 100px 200px;
+}
